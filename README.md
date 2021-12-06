@@ -1,28 +1,15 @@
-# Pexels App
+# Site Álbum de fotos e vídeos com API Pexels para processo seletivo
 
-In this application, I use the API from Pexels. Using this API, you can search for photos and videos from the service - just enter a keyword/phrase.
+Projeto desenvolvido em Vue.js com Bootstrap 5
 
-This app is still under development.
+# Passo a passo para execução do projeto em local
 
----
+Realize a clonagem do repositório através de git clone lfelipeapo/vue-pexels-album
 
-## API
-https://www.pexels.com/api/
+Depois acesse o terminal na raíz do projeto e execute o comando composer install
 
-## Project setup
-```
-npm install
-```
+Depois realize o comando npm install
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Por último execute npm run serve (A API já está configurada para execução).
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Caso contrário acesse o link: 
