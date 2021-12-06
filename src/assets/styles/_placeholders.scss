@@ -1,0 +1,11 @@
+%underlineLink {
+  position: absolute;
+  content: "";
+  bottom: -2px;
+  left: 0;
+  z-index: 1;
+  width: 0;
+  height: 2px;
+  opacity: 0;
+  transition: all 0.3s linear;
+}

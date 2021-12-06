@@ -1,0 +1,49 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+  width: 0.6vmax;
+}
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb{
+  background-color: $accentColor;
+}
+
+html {
+  overflow-y: scroll;
+  width: 100%;
+}
+
+body {
+  font-size: $mainFontSize;
+}
+
+.container {
+  max-width: 90vw;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.25vmax;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0 !important;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+input {
+  border: none;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
