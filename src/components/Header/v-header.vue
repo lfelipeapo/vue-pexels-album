@@ -53,6 +53,8 @@
     width: 100%;
     background-color: #ecf0f1;
     justify-content: center;
+    margin: 0 !important;
+    align-content: center;
     
     
   }
