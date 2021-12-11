@@ -1,6 +1,6 @@
 # Site Álbum de fotos e vídeos com API Pexels para processo seletivo
 
-Projeto desenvolvido em Vue.js com Bootstrap 5
+Projeto desenvolvido em Vue.js 2.6+ com Bootstrap 5
 
 # Passo a passo para execução do projeto em local
 
@@ -12,4 +12,4 @@ Depois realize o comando npm install
 
 Por último execute npm run serve (A API já está configurada para execução).
 
-Caso contrário acesse o link: 
+Acesse localhost:8080
