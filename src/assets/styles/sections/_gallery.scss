@@ -8,11 +8,12 @@
     margin-top: 10px;
     display: inline-block;
     font-size: 3.5vmax;
-    font-weight: 900;
+    font-weight: 600;
     letter-spacing: 1px;
     text-decoration: none;
     color: $secondColor;
     align-self: center;
+    text-transform: uppercase;
   }
 
   &__list {

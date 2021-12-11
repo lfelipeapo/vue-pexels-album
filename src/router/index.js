@@ -23,6 +23,11 @@ export default new VueRouter({
       component: () => import('@/views/v-video')
     },
     {
+      path: '/contact',
+      name: 'Contato',
+      component: () => import('@/views/v-contact')
+    },
+    {
       path: '/page-not-found',
       alias: '*',
       component: () => import('@/views/v-404')

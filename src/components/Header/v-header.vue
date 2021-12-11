@@ -30,7 +30,8 @@
         menuItems: [
           {title: "Home", url: "/"},
           {title: "Foto", url: "/photo"},
-          {title: "Vídeo", url: "/video"}
+          {title: "Vídeo", url: "/video"},
+          {title: "Contato", url: "/contact"}
           ]
       };
     }
@@ -39,7 +40,6 @@
 
 <style lang="scss" scoped>
  
-
   header {
 
     z-index: 5;
@@ -47,7 +47,7 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 100px;
+    height: 185px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -55,8 +55,7 @@
     justify-content: center;
     margin: 0 !important;
     align-content: center;
-    
-    
+        
   }
   
   .menu {
@@ -74,8 +73,8 @@
       color: #a5a5a5;
       text-decoration: none;
       transition: color 0.3s linear;
-      font-size: 3.5vw;
-      font-weight: 700;
+      font-size: 3.75vw;
+      font-weight: 600;
       text-transform: uppercase;
       padding: auto;
       
